@@ -10,7 +10,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_CERTIFICATE := platform
 
 # List of static libraries to include in the package
-LOCAL_JAVA_LIBRARIES :: signpost-commons-http \
+LOCAL_JAVA_LIBRARIES := signpost-commons-http \
                         signpost-core \
 		        diffutils \
 			android.test.runner \
